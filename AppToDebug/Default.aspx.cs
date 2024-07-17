@@ -17,13 +17,13 @@ namespace AppToDebug
         protected void Button1_Click(object sender, EventArgs e)
         {
             double price;
-            double VATRate;
+            int VATRate;
 
             VATRate = 20.5;
 
-            price = int.Parse(TextBox1.Text) * VATRate;
+            price = TextBox1.Tex * VATRate;
 
-            ResultLabel.Text = price.ToString();
+            ResultLabel.Text = prize;
 
         }
     }
